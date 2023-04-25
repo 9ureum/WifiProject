@@ -42,10 +42,10 @@ public class WifiMain {
 
 		}
 
-		System.out.printf("최소 거리는 %s번째 와이파이\n설치 장소 명 : %s\n도로명 주소 : %s\n최소거리 : %s\n",close.getId(),close.getInstallationLocationName(),
+		System.out.printf("현재 지점과 가장 가까운 와이파이는 자료의 %s번째 와이파이\n설치 장소명 : %s\n도로명 주소 : %s\n최소거리(현재 지점과의 거리) : %s\n",close.getId(),close.getInstallationLocationName(),
 				close.getRoadNameAddress(), min);
 
-		System.out.printf("최대 거리는 %s번째 와이파이\n설치 장소 명 : %s\n도로명 주소 : %s\n최대거리 : %s\n",far.getId(),far.getInstallationLocationName(),
+		System.out.printf("현재 지점과 가장 먼 와이파이는 자료의 %s번째 와이파이\n설치 장소명 : %s\n도로명 주소 : %s\n최대거리(현재 지점과의 거리 : %s\n",far.getId(),far.getInstallationLocationName(),
 				far.getRoadNameAddress(), max);
 
 
